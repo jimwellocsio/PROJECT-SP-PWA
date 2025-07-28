@@ -1,0 +1,167 @@
+.pageContainer {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.08) 100%), url("/login-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageContainer .contentContainer {
+    box-sizing: border-box;
+    width: 70%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contentContainer .messageSection {
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer img{
+    width: 150px;
+    object-fit: cover;
+}
+
+.messageContent {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 10%;
+}
+
+.messageContent h1 {
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.messageContent p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.5px;
+}
+
+.messageContent .subMessage {
+    font-size: 12px;
+}
+
+.messageSection .footerContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    letter-spacing: 0.5px;
+}
+
+.contentContainer .formSection {
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 50px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.formSection .formContainer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.formContainer .otherActions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.7);
+    padding: 0 10px;
+}
+
+.rememberMe {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rememberMe .checkboxWrapper {
+    position: relative;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+}
+
+.checkboxWrapper input[type="checkbox"] {
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.checkboxWrapper input[type="checkbox"]:checked{
+    opacity: 1;
+    accent-color: rgb(16, 148, 72);
+}
+
+.forgotPassword:hover {
+    color: rgb(16, 148, 72);
+}
+
+.formContainer .inputSection {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
