@@ -32,13 +32,13 @@ const serwist = new Serwist({
   navigationPreload: true,
   runtimeCaching: [
     {
-      matcher: ({url}) => url.pathname.startsWith("/_next/static/"),
+      matcher: ({url}) => url.pathname.startsWith("/_next/static/") || url.pathname.startsWith("/"),
       handler: new StaleWhileRevalidate()
-    },
-    {
-      matcher: ({url}) => url.pathname.startsWith("/assets/images/") || url.pathname.startsWith("/"),
-      handler: new CacheFirst()
     }
+    // {
+    //   matcher: ({url}) => url.pathname.startsWith("/assets/images/"),
+    //   handler: new CacheFirst()
+    // }
   ]
 });
 
