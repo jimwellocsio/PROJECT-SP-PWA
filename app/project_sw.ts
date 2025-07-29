@@ -19,7 +19,7 @@ declare const self: ServiceWorkerGlobalScope;
 
 const serwist = new Serwist({
   precacheEntries: [
-    ...precache as PrecacheEntry[],
+    // ...precache as PrecacheEntry[],
     ...self.__SW_MANIFEST || [] // This will be replaced by the actual precache manifest
   ],
   // precacheEntries: self.__SW_MANIFEST,
