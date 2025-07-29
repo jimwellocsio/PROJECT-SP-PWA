@@ -44,15 +44,15 @@
     "revision": null
   },
   {
-    "url": "/_next/static/QZugyHuwsYoC3T7SFfm4L/_buildManifest.js",
+    "url": "/_next/static/P7F-1F-EGXf1VD-OjbDIH/_buildManifest.js",
     "revision": null
   },
   {
-    "url": "/_next/static/QZugyHuwsYoC3T7SFfm4L/_ssgManifest.js",
+    "url": "/_next/static/P7F-1F-EGXf1VD-OjbDIH/_ssgManifest.js",
     "revision": null
   },
   {
-    "url": "/_next/static/chunks/app/layout-a121b7315f5972c2.js",
+    "url": "/_next/static/chunks/app/layout-b2b27909bbfeef67.js",
     "revision": null
   },
   {
@@ -72,11 +72,11 @@
     "revision": null
   },
   {
-    "url": "/_next/static/chunks/app/login/page-4a20f4c691b5295c.js",
+    "url": "/_next/static/chunks/app/_not-found/page-0cd93d2395cc557d.js",
     "revision": null
   },
   {
-    "url": "/_next/static/chunks/app/_not-found/page-0cd93d2395cc557d.js",
+    "url": "/_next/static/chunks/app/login/page-4a20f4c691b5295c.js",
     "revision": null
   },
   {
@@ -97,6 +97,10 @@
   },
   {
     "url": "/_next.svg",
+    "revision": null
+  },
+  {
+    "url": "/project_sw.js",
     "revision": null
   },
   {
